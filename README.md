@@ -1,7 +1,8 @@
 # mvt-map
 
 
-The app relies on a local environment file.
+The app relies on a local environment file. An example is included ((example.env)[https://github.com/MTgravity/mvt-map/blob/master/example.env]). Chang values as necessary and make sure to rename the file to `.env`.
+
 |Env Var|Ex|Desc|
 |--|--|--|
 |POSTGRES_USER|`mapnerd`|Database username|
