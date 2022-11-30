@@ -2,7 +2,7 @@
 
 
 The app relies on a local environment file( [example.env](https://github.com/MTgravity/mvt-map/blob/master/example.env) ). 
-Chang values as necessary and make sure to rename the file to `.env`.
+Change values as necessary and make sure to rename the file to `.env`.
 
 |Env Var|Ex|Desc|
 |--|--|--|
