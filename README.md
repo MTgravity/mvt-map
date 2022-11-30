@@ -9,4 +9,4 @@ The app relies on a local environment file.
 |POSTGRES_DB|`mapdb`|Database Name|
 |MAPBOX_TOKEN|`pk.ey...`|Public Mapbox Access Token|
 
-Will need a Mapbox API access token. Information about setting up a token can be found in the documentation on thier [website](https://docs.mapbox.com/help/getting-started/access-tokens/)
+The webmap utilizes the Mapbox JS API, which requires an access token. Information about setting up a token can be found in the documentation on thier [website](https://docs.mapbox.com/help/getting-started/access-tokens/)
