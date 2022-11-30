@@ -1,0 +1,35 @@
+version: '3.8'
+
+
+
+services:
+
+
+  postgisdb:
+    hostname: postgisdb
+    build:
+      context: ./docker/postgisdb
+    environment:
+      - POSTGRES_USER=mapnerd
+      - POSTGRES_PASSWORD=mapnerd
+      - POSTGRES_DB=mapdb
+    ports: 
+      - "5499:5432"
+    volumes:
+      - db-data:/var/lib/postgrespers
+    networks:
+      - mvt-map-network
+
+  # mvt:
+  #   context: docker/mvt
+
+volumes:
+  db-data:
+
+
+
+
+
+networks:
+
+    mvt-map-network:
